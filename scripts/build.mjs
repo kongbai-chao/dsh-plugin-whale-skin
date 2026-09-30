@@ -53,15 +53,16 @@ const client = `window.__ModuleLoader__.load({
 \t\t\tvar h = React.createElement;
 
 \t\t\t// Two whale maids standing at the bottom corners, purely decorative:
-\t\t\t// pointer-events none, below DSH menus (z-index < 100).
+\t\t\t// pointer-events none, pushed to the bottom of the stacking order and
+\t\t\t// kept faint so they never obscure text or controls.
 \t\t\tfunction MaidDecor() {
 \t\t\t\tvar wrap = {
 \t\t\t\t\tposition: "fixed", inset: "0", pointerEvents: "none",
-\t\t\t\t\tzIndex: 20, overflow: "hidden"
+\t\t\t\t\tzIndex: 0, overflow: "hidden"
 \t\t\t\t};
 \t\t\t\tvar maid = {
 \t\t\t\t\tposition: "absolute", bottom: "0", userSelect: "none",
-\t\t\t\t\tpointerEvents: "none", opacity: 0.96
+\t\t\t\t\tpointerEvents: "none", opacity: 0.28
 \t\t\t\t};
 \t\t\t\treturn h("div", { "aria-hidden": "true", style: wrap },
 \t\t\t\t\th("img", { src: MAID_LEFT, alt: "", style: Object.assign({}, maid, { left: "0", height: "min(46vh, 480px)" }) }),
