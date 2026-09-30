@@ -1,5 +1,9 @@
 MIT License
 
+This MIT license covers the source code only. The embedded whale-maid
+artwork (`assets/maid-left.webp`, `assets/maid-right.webp`) is licensed
+separately under CC BY-NC-SA 4.0; see NOTICE.
+
 Copyright (c) 2026 dsh-plugin-whale-skin contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

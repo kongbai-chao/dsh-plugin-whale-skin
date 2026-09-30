@@ -1,0 +1,25 @@
+# Artwork notice
+
+The whale-maid illustrations embedded in `lib/client.js` (built from
+`assets/maid-left.webp` and `assets/maid-right.webp`) are adapted from the
+dsh-deep-whale project by Small-tailqwq:
+
+  https://github.com/Small-tailqwq/dsh-deep-whale
+
+These images are **not** covered by this project's MIT code license. They are
+licensed under **CC BY-NC-SA 4.0** (non-commercial, share-alike, attribution):
+
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## Attribution
+
+| Copyright holder | Contribution | Profile |
+|---|---|---|
+| 上善 | Original whale-girl character design | [Pixiv](https://www.pixiv.net/users/62155430) · [Bilibili（上善无形）](https://b23.tv/8h5L4xz) |
+| ZipZipPipe | Whale-maid redesign with DeepSeek elements | [Pixiv](https://www.pixiv.net/users/18604994) · [Bilibili（ZipZipPipe）](https://b23.tv/Pnw6nG8) |
+
+Source skin: `maid-atelier`（深海女仆工坊）.
+
+If you redistribute or modify these images, you must keep this attribution,
+share under the same CC BY-NC-SA 4.0 license, and must not use them
+commercially.

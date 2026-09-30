@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-whale-skin",
-  "version": "0.1.0",
-  "description": "Deep-sea whale-girl theme: a deep-blue skin for the DeepSeek Harness desktop client, with light and dark palettes.",
+  "version": "0.1.1",
+  "description": "Deep-sea whale-girl theme for the DeepSeek Harness desktop client: deep-blue palette (light/dark) plus two whale-maid corner illustrations.",
   "icon": "assets/icon.svg",
   "type": "module",
   "main": "lib/index.js",
@@ -9,6 +9,9 @@
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
     "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
   },
   "dsh": {
     "bundle": {
@@ -24,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://example.invalid/dsh-plugin-whale-skin"
+    "url": "git+https://github.com/kongbai-chao/dsh-plugin-whale-skin.git"
   },
   "files": [
     "lib/index.js",
@@ -32,7 +35,11 @@
     "cordis.patch.yml",
     "locale",
     "assets/icon.svg",
+    "assets/maid-left.webp",
+    "assets/maid-right.webp",
+    "scripts",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "NOTICE"
   ]
 }
