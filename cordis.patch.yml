@@ -1,0 +1,4 @@
+# Add only our skin row. Does not replace any official DSH component.
+- insert:
+    - id: whale-skin
+      name: dsh-plugin-whale-skin
